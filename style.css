@@ -1,0 +1,79 @@
+body {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 34px;
+    background: url("http://www.webdesigndev.com/wp-content/uploads/2013/06/Triangle.jpg");
+  
+}/* Navegation bar */
+#nav {display: inline-block;
+    background-color: white;
+    width: 97vw;
+    border: 1px solid black;
+    border-radius: 80px;
+    margin: 6px;
+   padding: 5px 4px 5px 4px;
+}
+
+.timeRight {
+    float: right;
+    color: #ffffff;
+    background-color: #03857c;
+    border-radius: 100px;
+}
+
+.vhLeft {
+    float: left;
+}
+
+h4 {
+    padding: 10px 20px 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #03857c;
+}
+
+/* Code Quiz*/
+#cqBody {
+    text-align: center;
+    padding: 30px;
+}
+
+#codeQ {color: #03857c;}
+
+button {
+    border: none;
+    background-color: #03857c;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    margin: 6px;
+}
+
+#quiz {
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+     border: 1px solid #000000;
+     border-radius: 80px;
+    padding: 10px 16px 10px 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    margin: 6px; 
+}
+
+#name {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 6px;
+    
+}

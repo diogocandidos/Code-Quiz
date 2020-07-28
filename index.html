@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Code Quiz</title>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src = "script.js" type="text/javascript"></script>
+		<script src = "questions.js" type="text/javascript"></script>
+    </head>
+    
+	<body>
+		<!--Added a navegation bar with the view highscores button and a timer countdown (75 seconds) when the quiz starts-->
+		<div id="nav">
+			<div class="vhLeft">
+            	<a onclick="getScore()" href="#"><h4 >View Highscores</h4></a>
+			</div>
+			<div class="timeRight">
+				<h4>Time Remaining: <span id="time">0</span></h4>
+			</div>
+		</div>
+
+		<!--Instructions/body of the coding quiz-->
+		<div id="quiz">
+            <div id="cqBody">      
+                <h1 id="codeQ">Coding Quiz Challenge!</h1>
+                <h3>Try to answer the following questions with the time limit. Incorrect answers will penalize your score/time by ten seconds.</h3>
+				<h3> Click in the button below to start the game!</h3>
+                <button onclick="start()">Start!</button>
+            </div>
+		</div>
+
+	</body>
+</html>
