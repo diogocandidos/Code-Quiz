@@ -1,7 +1,7 @@
 //Array: Variable with quiz questions; 
 
 var questions = [{
-    title: "Inside which HTML tag is JavaScript defined?",
+    title: "Inside of the HTML file, which tag defines JavaScript?",
     alternatives: ["style", "script", "!Doctype", ".js"],
     answer: "script"
 },
