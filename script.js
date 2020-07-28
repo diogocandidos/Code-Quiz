@@ -98,8 +98,8 @@ timer = null;
 document.getElementById("time").innerHTML = timeRem;
 
 var cqCont = `<h1 id="codeQ">Coding Quiz Challenge!</h1>
-<h3>Try to answer the following questions with the time limit. Incorrect answers will penalize your score/time by ten seconds.</h3>
-<h3> Click in the button below to start the game!</h3>
+<h3>Try to answer the following questions within the time limit. Incorrect answers will penalize your score/time by ten seconds.</h3>
+<h3> Click on the button below to start the game!</h3>
 <button onclick="start()">Start!</button>`;
 
 document.getElementById("cqBody").innerHTML = cqCont;

@@ -1,12 +1,12 @@
 //Array: Variable with quiz questions; 
 
 var questions = [{
-    title: "Inside which HTML <tag> is used to define JavaScript?",
+    title: "Inside which HTML tag is JavaScript defined?",
     alternatives: ["style", "script", "!Doctype", ".js"],
     answer: "script"
 },
 {
-    title: "Images in your webpage may have the following extentions except?",
+    title: "Images in your webpage may have the following extensions except?",
     alternatives: [".png", ".gif", ".jpg", ".psd"],
     answer: ".psd"
 },
@@ -21,7 +21,7 @@ var questions = [{
     answer: "$(selector).action"
 },
 {
-    title: "Which selector the # symbol stands for?",
+    title: "Which selector does the # symbol stand for?",
     alternatives: ["class", "tag", "id", "n/a"],
     answer: "id"
 }
